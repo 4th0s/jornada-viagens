@@ -1,18 +1,31 @@
-.section-title h2 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-  margin: 0;
+.card header {
+  display: block;
+  background-color: transparent;
+  padding: 24px 16px;
+  position: static;
+}
+.card {
+  color: var(--text-secondary-color);
+  background-color: black;
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
   text-align: center;
 }
-body {
-  font-family: "Montserrat";
-  color: var(--text-primary-color);
+.card header p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+.card header h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 8px 0px 0px;
 }
 
-.section-title hr {
-  width: 180px;
-  height: 4px;
-  background-color: var(--secundary-color);
-  border: none;
-  margin: 16px auto 32px;
+.card header span {
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
 }
